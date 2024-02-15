@@ -27,6 +27,7 @@ ol {
 }
 
 /* LAYOUT */
+
 /* .container-sm {
     max-width: 900px;
     margin: 0 auto;
@@ -94,10 +95,12 @@ ol {
     display: block;
 }
 
+/* ***** paragrafo ***** */
 .p-c_b {
     line-height: 25px;
     color: #536776;
 }
+/* ********************* */
 
 .font-size-icon_hero {
     font-size: 70px;
