@@ -25,3 +25,18 @@ ul,
 ol {
 	list-style: none;
 }
+
+/* LAYOUT */
+.container-sm {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container-lg {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* UTILITY */
+
+/* DEBUG */
