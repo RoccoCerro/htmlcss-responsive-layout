@@ -158,10 +158,23 @@ ol {
 }
 
 /* MEDIA QUERY */
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 524px) {
     .container {
         max-width: 700px;
     }
+
+    .page-hero .col {
+        width: calc(4 * 100% / 12);
+    }
+
+    .page-hero .col-lg {
+        width: calc(8 * 100% / 12);
+    }
+
+    .page-hero .row {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }    
 }
 
 @media screen and (min-width: 1023px) {
