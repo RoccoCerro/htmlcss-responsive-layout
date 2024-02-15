@@ -27,7 +27,7 @@ ol {
 }
 
 /* LAYOUT */
-.container-sm {
+/* .container-sm {
     max-width: 900px;
     margin: 0 auto;
 }
@@ -35,12 +35,76 @@ ol {
 .container-lg {
     max-width: 1024px;
     margin: 0 auto;
+} */
+
+.container {
+    width: 100%;
+    margin: 0 auto;
 }
 
 .row {
     display: flex;
 }
 
+/* STYLE HEADER*/
+.page-header {
+    background-color: #0084FD;
+    color: rgba(255, 255, 255, 0.884);
+}
+
+.page-header .col {
+    padding: 10px;
+}
+
+#link-header {
+    display: none;
+    gap: 20px;
+}
+
+#get-start {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.692);
+    padding: 5px 9px;
+    border-radius: 999px;
+}
+
 /* UTILITY */
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* MEDIA QUERY */
+@media screen and (min-width: 576px) {
+    .container {
+        max-width: 700px;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    #link-header {
+        display: flex;
+        align-items: center;
+    }
+
+    .bars {
+        display: none;
+    }
+
+    .container {
+        max-width: 1000px;
+    }
+}
 
 /* DEBUG */
