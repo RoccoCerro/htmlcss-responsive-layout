@@ -215,6 +215,9 @@ ol {
     .page-hero .card-img {
         border-bottom-left-radius: 0;
         border-top-right-radius: 20px;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
     }
 }
 
