@@ -37,6 +37,10 @@ ol {
     margin: 0 auto;
 }
 
+.row {
+    display: flex;
+}
+
 /* UTILITY */
 
 /* DEBUG */
