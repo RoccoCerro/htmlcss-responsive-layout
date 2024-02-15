@@ -39,6 +39,7 @@ ol {
 
 .container {
     width: 100%;
+    max-width: 350px;
     margin: 0 auto;
 }
 
@@ -53,7 +54,7 @@ ol {
 }
 
 .page-header .col {
-    padding: 10px;
+    padding: 10px 18px;
 }
 
 #link-header {
@@ -70,7 +71,9 @@ ol {
 
 /* STYLE PAGE-HERO */
 .page-hero .col {
-    padding: 24px ;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 20px;
 }
 
 .page-hero .card-body {
