@@ -68,9 +68,32 @@ ol {
     border-radius: 999px;
 }
 
+/* STYLE PAGE-HERO */
+.page-hero .col {
+    padding: 24px ;
+}
+
+.page-hero .card {
+    background-color: #B5DDFF;
+}
+
+.page-hero .card-body {
+    /* flex-direction: column;
+    align-items: flex-start; */
+    gap: 38 px;
+}
+
 /* UTILITY */
 .flex {
     display: flex;
+}
+
+.align-items_flex-start {
+    align-items: flex-start;
+}
+
+.flex-direction-column {
+    flex-direction: column;
 }
 
 .wrap {
@@ -83,6 +106,21 @@ ol {
 
 .align-items-center {
     align-items: center;
+}
+
+.color-hero {
+    color: #0082FD;
+}
+
+.button-hero {
+    background-color: #0082FD;
+    color: white;
+    padding: 5px 40px;
+    border-radius: 999px;
+}
+
+.padding-right-6 {
+    padding-right: 6px;
 }
 
 /* MEDIA QUERY */
