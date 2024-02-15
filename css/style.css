@@ -270,9 +270,12 @@ ol {
         align-items: flex-end;
     }
 
+    .page-planning .container {
+        max-width: 800px;
+    }
+
     .page-planning .row {
         flex-wrap: nowrap;
-        max-width: 90%;
         gap: 20px;
     }
 
