@@ -154,7 +154,6 @@ ol {
 .page-testimonials .col {
     text-align: center;
     line-height: 35px;
-    font-size: 22px;
 }
 
 .col-testimonials h6 {
@@ -166,22 +165,28 @@ ol {
     margin: 30px 0;
 }
 
-.col-nat .card {
+.page-testimonials .card {
     background-color: #9792E4;
     padding: 20px;
     color: white;
     border-radius: 50px;
 }
 
-.col-nat img{
+.page-testimonials .col img{
     margin-top: 25px;
     border-radius: 999px;
+    width: 210px;
+    min-width: 210px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
-.col-nat .name-nat {
-    margin-top: 25px;
+.page-testimonials .name-testimonials {
+    margin-top: 30px;
     font-weight: 600;
 }
+
+
 
 /* UTILITY */
 .flex {
@@ -265,6 +270,24 @@ ol {
     .page-planning #title-planning {
         font-size: 40px;
     }
+
+    .page-testimonials .card {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .page-testimonials .container {
+        max-width: 700px;
+    }
+
+    .page-testimonials .col {
+        text-align: start;
+    }
+
+    .page-testimonials .col-testimonials {
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 1023px) {
@@ -316,6 +339,24 @@ ol {
         display: flex;
         align-items: flex-end;
         justify-content: center;
+    }
+
+    .page-testimonials .card {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .page-testimonials .container {
+        max-width: 1000px;
+    }
+
+    .page-testimonials .col {
+        text-align: start;
+    }
+
+    .page-testimonials .col-testimonials {
+        text-align: center;
     }
 }
 
