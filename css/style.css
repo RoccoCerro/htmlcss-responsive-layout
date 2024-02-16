@@ -309,8 +309,10 @@ ol {
     padding: 15px 70px;
     border-radius: 100px;
     margin-bottom: 100px;
-    display: block;
-    max-width: 230px;
+}
+
+.copyright-page-free {
+    margin-top: 50px;
 }
 /* UTILITY */
 .flex {
