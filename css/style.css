@@ -251,18 +251,17 @@ ol {
 
 .about-img {
     border-radius: 50%;
-    max-width: 250px;
 }
 
 .container-img-about {
     position: relative;
-    margin-top: 20px ;
+    max-width: 200px;
 }
 
 .marks-about {
     position: absolute;
     top: 0px;
-    right: 99px;
+    right: 0px;
     font-size: 70px;
     color: #9792E4;
 }
@@ -522,7 +521,7 @@ ol {
     }
 
     .about .marks-about {
-        right: 65px;
+        right: 0px;
         top: 0;
     }
 
