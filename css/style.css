@@ -190,6 +190,7 @@ ol {
 .page-benefits {
     background-color: #9792E4;
     margin-top: 70px;
+    padding-bottom: 50px;
 }
 
 .title-benefits {
@@ -228,6 +229,48 @@ ol {
     display: block;
     max-width: 100px;
     text-align: center;
+}
+
+/* SECTION ABOUT */
+.about {
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.title-about {
+    color: #9792E4;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.p-about {
+    line-height: 30px;
+    padding: 20px 0;
+}
+
+.about-img {
+    border-radius: 50%;
+    max-width: 250px;
+}
+
+.container-img-about {
+    position: relative;
+}
+
+.marks-about {
+    position: absolute;
+    top: 0px;
+    right: 99px;
+    font-size: 70px;
+    color: #9792E4;
+}
+
+.p-about-bottom {
+    color: #9792E4;
+    font-weight: 900;
+    font-size: 25px;
+    padding: 20px 0;
 }
 
 /* UTILITY */
