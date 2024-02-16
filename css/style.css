@@ -186,7 +186,49 @@ ol {
     font-weight: 600;
 }
 
+/* PAGE-BENEFITS */
+.page-benefits {
+    background-color: #9792E4;
+    margin-top: 70px;
+}
 
+.title-benefits {
+    color: white;
+    font-size: 25px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.card-benefits {
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+
+.number-benefits {
+    font-size: 40px;
+    color: #9792E4;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.h4-benefits {
+    color: #9792E4;
+    font-weight: 1000;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.page-benefits .button{
+    padding: 5px 20px;
+    color: white;
+    background-color: #9792E4;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: block;
+    max-width: 100px;
+    text-align: center;
+}
 
 /* UTILITY */
 .flex {
@@ -288,6 +330,10 @@ ol {
     .page-testimonials .col-testimonials {
         text-align: center;
     }
+
+    .page-benefits .col {
+        width: calc(6 * 100% /12);
+    }
 }
 
 @media screen and (min-width: 1023px) {
@@ -357,6 +403,10 @@ ol {
 
     .page-testimonials .col-testimonials {
         text-align: center;
+    }
+
+    .page-benefits .col {
+        width: calc(4 * 100% /12);
     }
 }
 
